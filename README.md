@@ -1,6 +1,6 @@
-# ✈️ Xpedia Flight Booking System
+# ✈️ Expedia Flight Booking System
 
-Xpedia is a web-based flight booking management system designed to handle airline operations, airport management, passenger manifests, bookings, and related entities. The project is built using PHP (with MySQL stored procedures), HTML, CSS (Bootstrap), and JavaScript (jQuery).
+Expedia is a web-based flight booking management system designed to handle airline operations, airport management, passenger manifests, bookings, and related entities. The project is built using PHP (with MySQL stored procedures), HTML, CSS (Bootstrap), and JavaScript (jQuery).
 
 ## 🚀 Features
 
