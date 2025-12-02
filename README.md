@@ -1,23 +1,49 @@
-# ✈️ Expedia Flight Booking System
+✈️ Expedia Flight Reservation Platform
 
-Expedia is a web-based flight booking management system designed to handle airline operations, airport management, passenger manifests, bookings, and related entities. The project is built using PHP (with MySQL stored procedures), HTML, CSS (Bootstrap), and JavaScript (jQuery).
+Expedia is a browser-based air-travel reservation management platform crafted to oversee airline processes, airport administration, passenger registries, ticket reservations, and all related components. The system is developed using PHP (with MySQL stored routines), HTML, CSS (Bootstrap), and JavaScript (jQuery).
 
-## 🚀 Features
+🚀 Key Capabilities
+🌍 Nation Administration
 
-- 🌍 **Country Management:** Add, edit, and view countries. Each country can have multiple cities and airports.
-- 🏙️ **City Management:** Manage cities associated with countries.
-- 🛫 **Airport Management:** Manage airports, including linking them to cities and countries.
-- 🏢 **Airline Operations:** Manage airlines and their operations.
-- 📑 **Booking Management:** Create and manage flight bookings, booking classes, booking types, and payment methods.
-- 👥 **Passenger Manifest:** Manage passenger details, including identification, gender, and booking information.
-- 💱 **Currency Management:** Handle multiple currencies for bookings and pricing.
-- 🪪 **Identification Types:** Manage identification documents for passengers.
-- 🚻 **Gender Management:** Manage gender options for passengers.
-- 💻 **User Interface:** Responsive UI using Bootstrap and Font Awesome for icons.
+Create, modify, and display nations. Each nation may contain numerous cities and aviation terminals.
 
-## 📁 Project Structure
+🏙️ City Administration
 
-```
+Handle towns linked to specific nations.
+
+🛫 Airport Administration
+
+Oversee airports, including associating them with their respective towns and nations.
+
+🏢 Airline Activities
+
+Administer airlines and their operational duties.
+
+📑 Reservation Handling
+
+Generate and manage flight reservations, seat classes, reservation types, and payment categories.
+
+👥 Passenger Registry
+
+Maintain traveler information, including identification records, gender details, and reservation data.
+
+💱 Currency Handling
+
+Support multiple currencies for fare calculations and billing.
+
+🪪 ID Document Types
+
+Administer identification categories for travelers.
+
+🚻 Gender Options
+
+Manage gender selections for passenger details.
+
+💻 User Interface
+
+Adaptive interface built with Bootstrap and Font Awesome icons.
+
+📁 Project Layout
 Country.html
 Controllers/
     airlineoperations.php
@@ -55,48 +81,64 @@ Models/
     passengermanifest.php
     ...
 webfonts/
-```
 
-- **Country.html:** Main UI for managing countries.
-- **Controllers/:** PHP scripts handling AJAX requests and business logic for each entity.
-- **Models/:** PHP classes for database operations, each corresponding to a domain entity.
-- **JS/:** JavaScript files for client-side interactivity (e.g., `country.js`).
-- **CSS/:** Stylesheets (Bootstrap, Font Awesome).
-- **ExpediaDB/:** SQL scripts for database schema and stored procedures.
 
-## 🗄️ Database
+Country.html: Primary interface for managing nations.
 
-- MySQL database with stored procedures for all CRUD operations.
-- See [`ExpediaDB/ExpediaFlightBookingDB.sql`](ExpediaDB/ExpediaFlightBookingDB.sql) for schema and procedures.
+Controllers/: PHP processors for AJAX actions and core logic.
 
-## 🛠️ Setup Instructions
+Models/: PHP objects for database correspondence, each tied to a specific entity.
 
-1. **Clone the repository** to your local server directory (e.g., `htdocs` for XAMPP).
-2. **Import the database:**
-   - Open phpMyAdmin.
-   - Create a database named `expediaflightbooking`.
-   - Import `ExpediaDB/ExpediaFlightBookingDB.sql`.
-3. **Configure PHP:**
-   - Ensure PHP and MySQL are running (e.g., via XAMPP).
-   - No additional configuration is needed if using default credentials (`root` with no password).
-4. **Access the application:**
-   - Open `Country.html` in your browser via your local server (e.g., `http://localhost/Xpedia/Country.html`).
+JS/: JavaScript resources for browser-side interaction (e.g., country.js).
 
-## 🧰 Technologies Used
+CSS/: Stylesheets (Bootstrap + Font Awesome).
 
-- **Backend:** PHP (OOP), MySQL (with stored procedures)
-- **Frontend:** HTML, Bootstrap, Font Awesome, jQuery
-- **AJAX:** For dynamic data loading and operations
+ExpediaDB/: SQL definitions and stored routine scripts.
 
-## 🤝 Contributing
+🗄️ Database Overview
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+MySQL schema including stored routines for complete CRUD functionality.
+Refer to ExpediaDB/ExpediaFlightBookingDB.sql for full structure.
 
-## 📄 License
+🛠️ Installation Steps
 
-This project is for educational purposes.
+Copy the project into your server directory (e.g., htdocs for XAMPP).
 
----
+Load the database:
 
-**Xpedia Flight Booking System** ✈️  
-Manage your airline
+Open phpMyAdmin.
+
+Create a schema titled expediaflightbooking.
+
+Import ExpediaFlightBookingDB.sql.
+
+Configure PHP:
+
+Ensure PHP and MySQL are active (via XAMPP or similar).
+
+Default login details (root, no password) should work.
+
+Launch the system:
+
+In your browser, open:
+http://localhost/Xpedia/Country.html
+
+🧰 Tools & Technologies
+
+Server-Side: PHP (OOP), MySQL (stored routines)
+
+Client-Side: HTML, Bootstrap, Font Awesome, jQuery
+
+Communication: AJAX for asynchronous operations
+
+🤝 Contributions
+
+Submissions are appreciated. For major adjustments, kindly create an issue to discuss proposed enhancements.
+
+📄 License
+
+This system is intended strictly for learning and academic demonstration.
+
+✈️ Expedia Flight Reservation System
+
+Effortlessly supervise your airline operations.
