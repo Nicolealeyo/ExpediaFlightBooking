@@ -1,4 +1,4 @@
-✈️ Expedia Flight Reservation Platform
+✈️ **Expedia Flight Reservation Platform**
 
 Expedia is a browser-based air-travel reservation management platform crafted to oversee airline processes, airport administration, passenger registries, ticket reservations, and all related components. The system is developed using PHP (with MySQL stored routines), HTML, CSS (Bootstrap), and JavaScript (jQuery).
 
